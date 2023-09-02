@@ -11,10 +11,10 @@
 }
 
 .dark {
-    --color-bg-primary: #2d3748;
-    --color-bg-primary: #24282f;
+    --color-bg-primary: #51523d;
+    --color-bg-primary: #303f5a;
     --color-bg-secondary: #283141;
-    --color-text-primary: #dbdbdb;
+    --color-text-primary: #F1DCA3;
     --color-text-secondary: #e2e8f0;
     --color-text-accent: #81e6d9;
     --color-bg-input: #4a5361;
