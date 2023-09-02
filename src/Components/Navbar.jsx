@@ -17,7 +17,7 @@ const Navbar = () => {
   }
   return (
     <>
-      <div className=' p-4 rounded-2xl flex justify-between '>
+      <div className=' p-4 rounded-2xl flex justify-between z-50'>
         <div className='flex items-center'>
           {/* <div className='font-extrabold font-mono text-2xl'>Abinson</div> */}
           {/* <img className='w-8' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="" /> */}
@@ -27,7 +27,7 @@ const Navbar = () => {
 
         </div>
 
-        <ul className='hidden md:flex space-x-6 font-bold p-6 text-xl items-center'>
+        <ul className='hidden md:flex space-x-6 font-bold p-6 text-xl items-center z-50'>
           <ThemeChangeBtn />
           <li ><Link to='/'>Home</Link></li>
           <li ><Link to='/About'>About</Link></li>
