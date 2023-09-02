@@ -4,6 +4,7 @@ import cloud from '../assets/cloud.png'
 import bgflr from '../assets/bgflr1.png'
 
 
+
 const MainHome = () => {
   return (
     <>
@@ -25,7 +26,7 @@ const MainHome = () => {
             <p className='text-3xl font-semibold font-mono'>From underworld</p>
           </div>
         </div>
-      <div className='flex items-end justify-end  z-50'>
+      <div className='flex absolute bottom-0 right-0 items-end justify-end  z-0'>
         <img className=' w-full h-[22rem] md:w-[60rem] md:h-auto' src={maveli}  alt="" />
       </div>
       </div>

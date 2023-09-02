@@ -1,6 +1,9 @@
 import React from 'react'
 import maveli from '../assets/mavelionwater.png'
 import water from '../assets/waterr.png'
+import bgflr from '../assets/bgflr1.png'
+import flwr from '../assets/flwr.png'
+
 
 
 
@@ -10,10 +13,16 @@ const About = () => {
      <div className='flex justify-center'>
       <h2 className='font-bold text-3xl'>About me</h2>
       </div>
-    <div className='h-[110vh] md:h-screen relative flex justify-start mx-4  items-center flex-col md:flex-row'>
-      
+    <div className='h-[110vh] md:h-screen relative flex justify-start md:justify-end mx-4 my-8 items-center flex-col md:flex-row'>
+    <img className='absolute bottom-0 w-full ' src={water} alt="" />
+    <img className='absolute top-20 left-60 w-96 opacity-30' src={flwr} alt="" />
 
-        <div className='flex justify-center items-center flex-col w-full max-w-[520px] my-2  '>
+
+        <div className='absolute bottom-0 left-0 '>
+        <img className='w-44 md:w-96 z-50' src={maveli} alt="" />
+        </div>
+
+        <div className='flex  flex-col w-full max-w-[520px] my-2  '>
         <h2 className='font-bold text-3xl'> Mahabali</h2>
         <h2 className='font-bold text-xl'>Beloved King of Kerala</h2>
         <div className='my-4'>
@@ -24,11 +33,7 @@ const About = () => {
         </div>
         </div>
 
-        <img className='absolute bottom-0 w-full ' src={water} alt="" />
-        <div className='absolute bottom-0 right-0 '>
-        <img className='w-44 md:w-96 z-50' src={maveli} alt="" />
 
-        </div>
 
 
     </div>
