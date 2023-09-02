@@ -6,7 +6,7 @@ const MainHome = () => {
   return (
     <>
       {/* h-[100%] w-[100%] */}
-      <div className='flex relative justify-between flex-col md:flex-row items-center h-screen  border-b-2 border-black w-screen'>
+      <div className='flex relative justify-between flex-col md:flex-row items-center h-[90vh]  border-b-2 border-black w-screen'>
         <div className='flex items-start justify-center p-0 md:p-8 flex-col'>
           <div>
             <img className='absolute md:top-20 top-20 left-40 md:left-0 md:w-[12rem] w-64 ' src={cloud} alt="" />
@@ -20,7 +20,7 @@ const MainHome = () => {
           </div>
         </div>
       <div className='flex items-end justify-end  z-50'>
-        <img className='my-8 w-full h-[22rem] md:w-[60rem] md:h-auto' src={maveli}  alt="" />
+        <img className=' w-full h-[22rem] md:w-[60rem] md:h-auto' src={maveli}  alt="" />
       </div>
       </div>
 
