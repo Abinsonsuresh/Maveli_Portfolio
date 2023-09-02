@@ -21,7 +21,7 @@ const MainHome = () => {
           </div>
           <div className='z-0'>
             <h2 className='text-5xl font-bold'>Hi ! There,</h2>
-            <h2 className='text-6xl font-bold my-4'>I'm Maveli</h2>
+            <h2 className='text-6xl font-bold my-4'>I'm Mahabali</h2>
             <p className='text-3xl font-semibold font-mono'>From underworld</p>
           </div>
         </div>
