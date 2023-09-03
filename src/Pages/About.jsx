@@ -11,7 +11,7 @@ const About = () => {
   return (
     <>
      <div className='flex justify-center'>
-      <h2 className='font-bold text-3xl'>About me</h2>
+      <h2 className='font-bold text-3xl'>About</h2>
       </div>
     <div className='h-[110vh] md:h-screen relative flex justify-start md:justify-end mx-4 my-8 items-center flex-col md:flex-row'>
     <img className='absolute bottom-0 w-full ' src={water} alt="" />

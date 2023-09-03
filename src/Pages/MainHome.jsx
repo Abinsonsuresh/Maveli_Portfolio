@@ -23,7 +23,7 @@ const MainHome = () => {
           <div className='z-0'>
             <h2 className='text-5xl font-bold'>Hi ! There,</h2>
             <h2 className='text-6xl font-bold my-4'>I'm Mahabali</h2>
-            <p className='text-3xl font-semibold font-mono'>From underworld</p>
+            <p className='text-xl font-semibold '>The Benevolent Asura King Who Defied the Gods</p>
           </div>
         </div>
       <div className='flex absolute bottom-0 right-0 items-end justify-end  z-0'>

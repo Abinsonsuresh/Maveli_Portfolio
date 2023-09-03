@@ -9,7 +9,15 @@ const Timeline = () => {
     return (
         <>
             <div className='flex relative w-full h-full justify-center items-center'>
-                <div className='absolute top-52 left-100 opacity-75'>
+                <div className='absolute top-52 left-100 opacity-60'>
+                    <img src={flwr} className='w-full' alt="" />
+                </div>
+
+                <div className='absolute top-[45%] left-100 opacity-60'>
+                    <img src={flwr} className='w-96' alt="" />
+                </div>
+
+                <div className='absolute top-[70%] left-100 opacity-60'>
                     <img src={flwr} className='w-full' alt="" />
                 </div>
                 <VerticalTimeline>
