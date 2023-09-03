@@ -4,6 +4,7 @@ import water from '../assets/waterr.png'
 import bgflr from '../assets/bgflr1.png'
 import flwr from '../assets/flwr.png'
 
+import { AnimatePresence, motion } from 'framer-motion'
 
 
 
@@ -22,7 +23,7 @@ const About = () => {
         <img className='w-44 md:w-96 z-50' src={maveli} alt="" />
         </div>
 
-        <div className='flex  flex-col w-full max-w-[520px] my-2  '>
+        <motion.div   initial={{ opacity: 0, y: 100 }} whileInView={{ y: 0, opacity: 1 }}  className='flex  flex-col w-full max-w-[520px] my-2  '>
         <h2 className='font-bold text-3xl'>Mahabali</h2>
         <h2 className='font-bold text-xl'>Beloved King of Kerala</h2>
         <div className='my-4'>
@@ -31,7 +32,7 @@ const About = () => {
         </p>
         <p className='font-mono'>Key skills: Wisdom and Leadership, Benevolence, Devotion , Humility, Courage, Legacy of Unity, Spirit of Giving, Symbol of Sacrifice, Cultural Symbol</p>
         </div>
-        </div>
+        </motion.div>
 
 
 
