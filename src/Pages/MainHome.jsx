@@ -3,7 +3,7 @@ import maveli from '../assets/maveli.png'
 import cloud from '../assets/cloud.png'
 import bgflr from '../assets/bgflr1.png'
 import { AnimatePresence, motion } from 'framer-motion'
-
+import Typewriter from 'typewriter-effect';
 
 const MainHome = () => {
   return (
@@ -21,14 +21,25 @@ const MainHome = () => {
               <img className='absolute top-0 left-0 md:top-16 md:left-96 md:w-72 w-48' src={cloud} alt="" />
               {/* <motion.div animate={{ x: 100 }} /> */}
 
-                <img className='absolute top-0 right-0  md:top-0 md:right-0 md:w-72 w-48' src={cloud} alt="" />
+              <img className='absolute top-0 right-0  md:top-0 md:right-0 md:w-72 w-48' src={cloud} alt="" />
 
-      
+
             </div>
-            <motion.div initial={{opacity: 0, x:10}} whileInView={{ x: 0, opacity:1 }}  className='z-0'>
+            <motion.div initial={{ opacity: 0, x: 10 }} whileInView={{ x: 0, opacity: 1 }} className='z-0'>
               <h2 className='text-5xl font-bold'>Hi ! There,</h2>
               <h2 className='text-6xl font-bold my-4'>I'm Mahabali</h2>
-              <p className='text-xl font-semibold '>The Benevolent Asura King Who Defied the Gods</p>
+              <div className='text-2xl font-semibold '>
+                
+              <Typewriter
+                options={{
+                  strings: ['The Benevolent Asura King Who Defied the Gods'],
+                  autoStart: true,
+                  loop: true,
+                  delay: 45,
+                }}
+              />
+              </div>
+              {/* <p className='text-xl font-semibold '>The Benevolent Asura King Who Defied the Gods</p> */}
             </motion.div>
           </div>
           <div className='flex absolute bottom-0 right-0 items-end justify-end  z-0'>
