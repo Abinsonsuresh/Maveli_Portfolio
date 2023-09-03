@@ -12,7 +12,7 @@ const MainHome = () => {
       <AnimatePresence >
         <div className='flex relative justify-between flex-col md:flex-row items-center h-[90vh]  border-b-2 border-black w-screen'>
           <div className='flex items-start md:items-start justify-start text-left md:justify-center  p-2 md:p-8 flex-col'>
-            <img className='absolute top-28 left-10 w-80  opacity-50' src={bgflr} alt="" />
+            <img className='absolute top-28 left-20 md:left-10 w-80  opacity-50' src={bgflr} alt="" />
             <img className='absolute bottom-0 right-0 w-96 hidden md:block  opacity-50' src={bgflr} alt="" />
 
             <div>
@@ -28,14 +28,14 @@ const MainHome = () => {
             <motion.div initial={{ opacity: 0, x: 100 }} whileInView={{ x: 0, opacity: 1 }} className='z-0'>
               <h2 className='text-5xl font-bold'>Hi ! There,</h2>
               <h2 className='text-6xl font-bold my-4'>I'm Mahabali</h2>
-              <div className=' text-2xl font-semibold text-left'>
+              <div className=' text-2xl font-bold text-left'>
                 
               <Typewriter
                 options={{
                   strings: ['The Benevolent Asura King '],
                   autoStart: true,
                   loop: true,
-                  delay: 45,
+                  delay: 55,
               
                 }}
               />
@@ -44,7 +44,7 @@ const MainHome = () => {
             </motion.div>
           </div>
           <div className='flex absolute bottom-0 right-0 items-end justify-end  z-0'>
-            <img className=' w-full h-[22rem] md:w-[60rem] md:h-auto' src={maveli} alt="" />
+            <img className=' w-full h-[20rem] md:w-[60rem] md:h-auto' src={maveli} alt="" />
           </div>
         </div>
 
