@@ -15,7 +15,7 @@ const About = () => {
       </div>
     <div className='h-[110vh] md:h-screen relative flex justify-start md:justify-end mx-4 my-8 items-center flex-col md:flex-row'>
     <img className='absolute bottom-0 w-full ' src={water} alt="" />
-    <img className='absolute top-20 left-60 w-96 opacity-30' src={flwr} alt="" />
+    <img className='absolute top-20 left-100 md:left-60 w-96 opacity-30' src={flwr} alt="" />
 
 
         <div className='absolute bottom-0 left-0 '>
@@ -23,7 +23,7 @@ const About = () => {
         </div>
 
         <div className='flex  flex-col w-full max-w-[520px] my-2  '>
-        <h2 className='font-bold text-3xl'> Mahabali</h2>
+        <h2 className='font-bold text-3xl'>Mahabali</h2>
         <h2 className='font-bold text-xl'>Beloved King of Kerala</h2>
         <div className='my-4'>
         <p className='mb-3'>I am Mahabali, a legendary figure in Indian mythology and folklore. My story is celebrated primarily in the beautiful southern state of Kerala, where I am revered as both a demon king and a symbol of benevolence. Allow me to share with you the intriguing narrative of my life and legacy.

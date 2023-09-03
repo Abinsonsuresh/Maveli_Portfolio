@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import MainHome from './MainHome'
 import About from './About'
+import Timeline from './Timeline'
 
 // import MainHome from './MainHome'
 
@@ -15,6 +16,8 @@ const Home = () => {
         <Navbar/>
         <MainHome/>
         <About/>
+        <Timeline/>
+
     </div>
   )
 }
