@@ -12,7 +12,7 @@ import Timeline from './Timeline'
 
 const Home = () => {
   return (
-    <div className='mx-4'>
+    <div className='mx-4 overflow-hidden'>
         <Navbar/>
         <MainHome/>
         <About/>
