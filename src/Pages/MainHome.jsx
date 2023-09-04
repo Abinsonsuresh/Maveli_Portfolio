@@ -13,7 +13,7 @@ const MainHome = () => {
         <div className='flex relative justify-between flex-col md:flex-row items-center h-[90vh]  border-b-2 border-black w-screen'>
           <div className='flex items-start md:items-start justify-start text-left md:justify-center  p-2 md:p-8 flex-col'>
             <img className='absolute top-28 left-20 md:left-10 w-80  opacity-50' src={bgflr} alt="" />
-            <img className='absolute bottom-0 right-0 w-96 hidden md:block  opacity-50' src={bgflr} alt="" />
+            <img className='absolute bottom-0 right-10 w-96 hidden md:block  opacity-50' src={bgflr} alt="" />
 
             <div>
 
