@@ -4,7 +4,7 @@ import water from '../assets/waterr.png'
 import bgflr from '../assets/bgflr1.png'
 import flwr from '../assets/flwr.png'
 
-import { AnimatePresence, motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 
 
 
@@ -19,9 +19,9 @@ const About = () => {
     <img className='absolute top-20 left-100 md:left-60 w-96 opacity-30' src={flwr} alt="" />
 
 
-        <div className='absolute bottom-0 left-0 '>
+        <motion.div  initial={{ opacity: 0, x: -100 }} whileInView={{ x: 0, opacity: 1 }} transition={{  duration: 1 }} className='absolute bottom-0 left-0 '>
         <img className='w-44 md:w-96 z-50' src={maveli} alt="" />
-        </div>
+        </motion.div>
 
         <motion.div   initial={{ opacity: 0, y: 100 }} whileInView={{ y: 0, opacity: 1 }}  className='flex  flex-col w-full max-w-[520px] my-2  '>
         <h2 className='font-bold text-3xl'>Mahabali</h2>

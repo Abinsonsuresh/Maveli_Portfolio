@@ -22,7 +22,7 @@ const Timeline = () => {
                 </div>
                 <VerticalTimeline>
                     {
-                        Timelines && Timelines.map((data) => (
+                        Timelines.map((data) => (
                             <VerticalTimelineElement
                             key={data.id}
                                 className="vertical-timeline-element--work"
