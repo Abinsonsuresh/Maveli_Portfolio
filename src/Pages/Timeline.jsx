@@ -8,7 +8,7 @@ import flwr from '../assets/flwr.png'
 const Timeline = () => {
     return (
         <>
-            <div className='flex relative w-full h-full justify-center items-center'>
+            <div className='flex relative w-full h-full justify-center items-center overflow-hidden '>
                 <div className='absolute top-52 left-100 opacity-60'>
                     <img src={flwr} className='w-full' alt="" />
                 </div>

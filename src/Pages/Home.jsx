@@ -19,11 +19,13 @@ import Gallery from './Gallery'
 const Home = () => {
   return (
     <>
-    <div className='mx-4 overflow-hidden'>
+    <div className='mx-4 overflow-hidden scrollbar-hide'>
         <Navbar/>
         <MainHome/>
         <About/>
+        <div >
         <Timeline/>
+        </div>
         <Gallery/>
 
         <Arrival/>
