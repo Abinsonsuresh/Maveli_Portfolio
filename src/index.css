@@ -25,7 +25,9 @@
   
   .light {
     --color-bg-primary: #F1DCA3;
-    --color-bg-secondary: #edf2f7;
+    --color-bg-secondary: #ffffff;
+    --color-bg-border: #6c4527;
+   /* --color-bg-border: #c83e3e; */
     --color-text-primary: #47250c;
     --color-text-secondary: #4a5568;
     --color-text-accent: #2b6cb0;

@@ -18,8 +18,8 @@ module.exports = {
         btnText: 'var(--color-bg-secondary)'
       },
       borderColor: {
-        primary: 'var(--color-bg-primary)',
-        secondary: 'var(--color-bg-secondary)',
+        primary: 'var(--color-bg-border)',
+        secondary: 'var(--color-bg-border)',
         input: 'var(--color-bg-input)',
         accent: 'var(--color-text-accent)',
       },
