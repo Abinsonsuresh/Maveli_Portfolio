@@ -9,7 +9,6 @@ import Arrival from './Arrival'
 import Gallery from './Gallery'
 
 
-
 // import MainHome from './MainHome'
 
 // import About from './About'
@@ -20,6 +19,7 @@ const Home = () => {
   return (
     <>
     <div className='mx-4 overflow-hidden '>
+      {/* <Parallax></Parallax> */}
         <Navbar/>
         <MainHome/>
         <About/>

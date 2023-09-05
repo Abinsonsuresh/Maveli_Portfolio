@@ -5,12 +5,14 @@ import bgflr from '../assets/bgflr1.png'
 import flwr from '../assets/flwr.png'
 
 import { motion } from 'framer-motion'
+import { Parallax } from 'react-parallax';
 
 
 
 const About = () => {
   return (
     <>
+     <Parallax strength={200}>
      <div className='flex justify-center'>
       <h2 className='font-bold text-3xl'>About</h2>
       </div>
@@ -38,6 +40,7 @@ const About = () => {
 
 
     </div>
+    </Parallax>
     </>
   )
 }
