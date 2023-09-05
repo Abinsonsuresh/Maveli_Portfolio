@@ -15,7 +15,7 @@ const Contact = () => {
 
 
         <div className='max-w-[700px] text-lg text-center'>
-        <p>My inbox is always open, whether you have a question, offer or just want to say hi, I’ll try my best to get back to you!</p>
+        <p>My inbox is always open feel free to contact</p>
         </div>
       </div>
       <div className='flex flex-col max-w-[700px] mx-auto min-h-[500px] rounded-lg border border-primary shadow-2xl px-4 py-16  my-8'>
@@ -34,7 +34,7 @@ const Contact = () => {
             </div>
           </form>
 
-          <button className='px-4 py-2 shadow-xl rounded-xl border border-secondary bg-red-950 text-btnText font-semibold'>Submit</button>
+          <button className='px-4 py-2 shadow-xl rounded-xl border border-secondary  bg-red-950 text-btnText font-semibold'>Submit</button>
 
 
 
