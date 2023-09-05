@@ -19,7 +19,7 @@ import GalleryRemaster from './GalleryRemaster'
 const Home = () => {
   return (
     <>
-      <div className='mx-4 overflow-hidden '>
+      <div className='mx-4 overflow-hidden scrollbar-hide'>
         {/* <Parallax></Parallax> */}
         <Navbar />
  

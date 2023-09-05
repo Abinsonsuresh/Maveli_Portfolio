@@ -17,7 +17,7 @@ const Navbar = () => {
   }
   return (
     <>
-      <div className=' p-4 rounded-2xl flex justify-between z-50'>
+      <div className=' p-4 rounded-2xl flex justify-between z-50 fixed right-0 top-0 h-[10vh]'>
         <div className='flex items-center'>
           {/* <div className='font-extrabold font-mono text-2xl'>Abinson</div> */}
           {/* <img className='w-8' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="" /> */}
