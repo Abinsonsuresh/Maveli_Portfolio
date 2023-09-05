@@ -6,11 +6,7 @@ import { AnimatePresence, motion, useAnimation } from 'framer-motion'
 import Typewriter from 'typewriter-effect';
 
 const MainHome = () => {
-  // const spinTransition = {
-  //   loop: Infinity,
-  //   ease: "linear",
-  //   duration: 5
-  // };
+
 
   const controls = useAnimation();
   const [direction, setDirection] = React.useState(1);

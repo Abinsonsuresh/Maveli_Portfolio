@@ -4,21 +4,42 @@ import water from '../assets/waterr.png'
 import bgflr from '../assets/bgflr1.png'
 import flwr from '../assets/flwr.png'
 
-import { motion } from 'framer-motion'
-import { Parallax } from 'react-parallax';
+import { AnimatePresence, motion, useAnimation } from 'framer-motion'
+
+
 
 
 
 const About = () => {
+  const controls = useAnimation();
+  const [direction, setDirection] = React.useState(1);
+
+  React.useEffect(() => {
+    controls.start({
+      rotate: [null, 360 * direction],
+      transition: {
+        duration: 24,
+        repeat: Infinity,
+        ease: "linear"
+      }
+    });
+
+    setTimeout(() => {
+      setDirection(-1 * direction);
+    }, 19000);
+  }, [direction, controls]);
   return (
     <>
-     <Parallax strength={200}>
+
      <div className='flex justify-center'>
       <h2 className='font-bold text-3xl'>About</h2>
       </div>
     <div className='h-[110vh] md:h-screen relative flex justify-start md:justify-end mx-4 my-8 items-center flex-col md:flex-row'>
     <img className='absolute bottom-0 w-full ' src={water} alt="" />
-    <img className='absolute top-20 left-100 md:left-60 w-96 opacity-30' src={flwr} alt="" />
+    <motion.div animate={controls} className='absolute top-20 left-100 md:left-60'>
+
+    <img className=' w-96 opacity-30' src={flwr} alt="" />
+    </motion.div>
 
 
         <motion.div  initial={{ opacity: 0, x: -100 }} whileInView={{ x: 0, opacity: 1 }} transition={{  duration: 1 }} className='absolute bottom-0 left-0 '>
@@ -40,7 +61,7 @@ const About = () => {
 
 
     </div>
-    </Parallax>
+
     </>
   )
 }
