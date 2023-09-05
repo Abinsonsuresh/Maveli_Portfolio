@@ -44,11 +44,12 @@ const MainHome = () => {
               <motion.div initial={{ x: -100 }} whileInView={{ x: 10 }} transition={{ duration: 1 }} className='absolute md:top-10 top-36 left-36 md:left-0'>
                 <img className=' md:w-[12rem] w-52 ' src={cloud} alt="" />
               </motion.div>
-              <motion.div initial={{ x: -100 }} whileInView={{ x: 10 }} transition={{ duration: 2 }} className='absolute top-10 left-0 md:top-16 md:left-96' >
+              <motion.div initial={{ x: -100 }} whileInView={{ x: 10 }} transition={{ duration: 2 }} className='absolute top-12 left-0 md:top-16 md:left-96' >
+
                 <img className=' md:w-64 w-48' src={cloud} alt="" />
               </motion.div>
 
-              <motion.div initial={{ x: 100 }} whileInView={{ x: 10 }} transition={{ duration: 1 }} className='absolute top-0 right-10  md:top-10 md:right-20'>
+              <motion.div initial={{ x: 100 }} whileInView={{ x: 10 }} transition={{ duration: 1 }} className='absolute top-5 right-10  md:top-10 md:right-20'>
                 <img className=' md:w-64 w-48' src={cloud} alt="" />
               </motion.div>
 
