@@ -7,6 +7,7 @@ import About from './About'
 import Timeline from './Timeline'
 import Arrival from './Arrival'
 import Gallery from './Gallery'
+import GalleryRemaster from './GalleryRemaster'
 
 
 // import MainHome from './MainHome'
@@ -18,22 +19,35 @@ import Gallery from './Gallery'
 const Home = () => {
   return (
     <>
-    <div className='mx-4 overflow-hidden '>
-      {/* <Parallax></Parallax> */}
-        <Navbar/>
-        <MainHome/>
-        <About/>
+      <div className='mx-4 overflow-hidden '>
+        {/* <Parallax></Parallax> */}
+        <Navbar />
+ 
+
+        <section id='home'>
+          <MainHome />
+        </section>
+        <section id='About'>
+          <About  />
+          <Timeline />
+        </section>
+        <section>
+
+          <Gallery id='Gallery' />
+        </section>
+        <section id='Arrival'>
+          <Arrival />
+        </section>
+
         <div >
-        <Timeline/>
         </div>
-        <Gallery/>
-
-        <Arrival/>
 
 
 
-    </div>
-        <Footer/>
+
+
+      </div>
+      <Footer />
     </>
   )
 }

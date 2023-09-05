@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import { AiOutlineClose } from 'react-icons/ai'
 import { HiMenuAlt3 } from 'react-icons/hi'
 import { useGlobalContext } from '../Context/ThemeContext'
@@ -29,10 +29,10 @@ const Navbar = () => {
 
         <ul className='hidden md:flex space-x-6 font-bold p-6 text-xl items-center z-50'>
           <ThemeChangeBtn />
-          <li ><Link to='/'>Home</Link></li>
-          <li ><Link to='/About'>About</Link></li>
-          <li ><Link to='/Projects'>Gallery</Link></li>
-          <li ><Link to='/Contact'>Contact</Link></li>
+          <li ><Link to='#home'>Home</Link></li>
+          <li ><Link to='#About'>About</Link></li>
+          <li ><Link to='#Gallery'>Gallery</Link></li>
+          <li ><Link to='#Arrival'>Arrival</Link></li>
         </ul>
 
 
@@ -52,10 +52,10 @@ const Navbar = () => {
             {shownav ? <AiOutlineClose size={25} /> : null}
           </div>
           <ul className='space-y-6 font-semibold  text-xl items-center my-16'>
-            <li className='p-6 border-b'><Link to='/'>Home</Link></li>
-            <li className='p-6 border-b'><Link to='/About'>About</Link></li>
-            <li className='p-6 border-b'><Link to='/Projects'>Projects</Link></li>
-            <li className='p-6 border-b'><Link to='/Contact'>Contact</Link></li>
+            <li className='p-6 border-b'><Link to='#home'>Home</Link></li>
+            <li className='p-6 border-b'><Link to='#About'>About</Link></li>
+            <li className='p-6 border-b'><Link to='#Gallery'>Gallery</Link></li>
+            <li className='p-6 border-b'><Link to='#Arrival'>Arrival</Link></li>
           </ul>
 
         </div>
