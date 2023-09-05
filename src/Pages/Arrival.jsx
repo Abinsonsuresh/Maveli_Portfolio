@@ -48,7 +48,7 @@ const Arrival = () => {
 
     return (
         <>
-            <div className='flex justify-center my-8 h-full'>
+            <div className='flex justify-center my-8 h-full min-h-[30vh]'>
                 <h3 className='font-bold text-6xl'>Next Arrival</h3>
             </div>
 

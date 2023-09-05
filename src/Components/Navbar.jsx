@@ -32,7 +32,7 @@ const Navbar = () => {
           <li ><Link to='#home'>Home</Link></li>
           <li ><Link to='#About'>About</Link></li>
           <li ><Link to='#Gallery'>Gallery</Link></li>
-          <li ><Link to='#Arrival'>Arrival</Link></li>
+          <li ><Link to='#Contact'>Contact</Link></li>
         </ul>
 
 
@@ -55,7 +55,7 @@ const Navbar = () => {
             <li className='p-6 border-b'><Link to='#home'>Home</Link></li>
             <li className='p-6 border-b'><Link to='#About'>About</Link></li>
             <li className='p-6 border-b'><Link to='#Gallery'>Gallery</Link></li>
-            <li className='p-6 border-b'><Link to='#Arrival'>Arrival</Link></li>
+            <li className='p-6 border-b'><Link to='#Contact'>Contact</Link></li>
           </ul>
 
         </div>

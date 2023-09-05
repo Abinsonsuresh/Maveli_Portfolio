@@ -7,6 +7,7 @@ import About from './About'
 import Timeline from './Timeline'
 import Arrival from './Arrival'
 import Gallery from './Gallery'
+import Contact from './Contact'
 
 
 
@@ -35,9 +36,10 @@ const Home = () => {
 
           <Gallery id='Gallery' />
         </section>
-        <section id='Arrival'>
-          <Arrival />
+        <section id='Contact'>
+          <Contact/>
         </section>
+          <Arrival />
 
         <div >
         </div>
