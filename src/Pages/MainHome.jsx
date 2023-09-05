@@ -15,7 +15,7 @@ const MainHome = () => {
     controls.start({
       rotate: [null, 360 * direction],
       transition: {
-        duration: 8,
+        duration: 12,
         repeat: Infinity,
         ease: "linear"
       }
