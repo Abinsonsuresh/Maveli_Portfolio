@@ -7,7 +7,7 @@ import About from './About'
 import Timeline from './Timeline'
 import Arrival from './Arrival'
 import Gallery from './Gallery'
-import GalleryRemaster from './GalleryRemaster'
+
 
 
 // import MainHome from './MainHome'
