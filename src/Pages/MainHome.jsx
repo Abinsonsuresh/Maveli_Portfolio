@@ -33,9 +33,9 @@ const MainHome = () => {
         <div className='flex relative justify-items-start md:justify-between  flex-col md:flex-row items-center md:h-[110vh] h-[95vh]  border-b-2 border-black w-screen'>
           <div className='flex items-center md:items-start justify-center text-left md:justify-center  p-2 md:p-8 flex-col'>
             <motion.div animate={controls} className='absolute top-36 left-12 md:left-10'>
-            <img className=' w-80  opacity-50' src={bgflr} alt="" />
+              <img className=' w-80  opacity-50' src={bgflr} alt="" />
             </motion.div>
-            <motion.div className='absolute bottom-0 right-10' 
+            <motion.div className='absolute bottom-0 right-10'
               animate={controls}>
               <img className=' w-96 hidden md:block  opacity-50' src={bgflr} alt="" />
             </motion.div>

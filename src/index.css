@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
+body::-webkit-scrollbar {
+  /* width: 1em;
+  scrollbar-h */
+  display: none;
+}
 
 :root{
     @apply bg-primary text-primary;
